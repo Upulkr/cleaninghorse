@@ -7,7 +7,7 @@ const Schedule = () => {
   return (
     <div>
       <PageHeading content="Schedule" />
-      <div className="bg-white pt-20 pb-10">
+      {/* <div className="bg-white pt-20 pb-10">
         <div className="px-5 text-center ">
           <div className="flex items-center justify-center">
             <div className="h-[2px] w-[100px] bg-main"></div>
@@ -70,7 +70,7 @@ const Schedule = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
