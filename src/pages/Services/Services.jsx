@@ -19,7 +19,7 @@ const Services = () => {
     <div>
       <PageHeading content="Services" />
       {/* Services */}
-      <div
+      {/* <div
         className="bg-fixed bg-cover bg-center pt-20 pb-10"
        >
         <div className="px-5 ">
@@ -68,7 +68,7 @@ const Services = () => {
             content="Discover more About us"
           ></ServiceCard>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
