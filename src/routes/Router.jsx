@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import Main from "../layout/main";
+
 import Home from "../pages/Home";
 import Login from "../pages/login/Login";
 import SignUp from "../pages/Signup/SignUp";
@@ -32,6 +32,7 @@ import Payments from "../pages/Dashboard/User/Payments/Payments";
 import Settings from "../pages/Dashboard/Settings";
 import Plans from "../pages/Dashboard/Admin/Plans/Plans";
 import NewMessages from "../pages/Dashboard/Admin/NewMessages/NewMessages";
+import Main from './../layout/Main';
 
 const router = createBrowserRouter([
   {
