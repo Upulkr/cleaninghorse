@@ -36,7 +36,7 @@ import NewMessages from "../pages/Dashboard/Admin/NewMessages/NewMessages";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>,
+    element: <Main/>,
     children: [
       {
         path: "/",
